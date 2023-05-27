@@ -151,3 +151,36 @@ p{
 h2{
     font-size: 48px;
 }
+
+/*---------------------- footer --------------------*/
+footer{
+    text-align: center;
+    
+}
+footer img{
+    width: 484px;
+    height: 110px;
+
+}
+.all-icon{
+    align-items: center;
+}
+
+.fo-icon{
+    
+    width:32px;
+    height:32px;
+    background-color: #d1cecead;
+    border-radius: 50%;
+    color:#646363;
+    text-align: center;
+    padding-top: 14px;
+    padding-left: 6px;
+    padding-right:6px
+    
+}
+
+footer p{
+    color: black;
+}
+
