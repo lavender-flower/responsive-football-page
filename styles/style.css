@@ -48,12 +48,21 @@ nav .left a{
     margin-left: 20px;  
    
 }
+.bar{
+    display: none;
+}
 
 
 h1{
     font-size: 64px;
     color: #ffffff;
 }
+/* h1:hover{
+    font-size: 74px;
+    transition:font-size;
+} */
+
+/*========================================== banner-part */
 .flex-con{
     display: grid;
     /* margin-bottom: 50px; */
@@ -75,6 +84,20 @@ h1{
 
     
 }
+.football:hover{
+    /* transform: rotate(30deg); */
+    width: 620px;
+    height: 502px;
+    transition: width 4s,height 4s;
+   
+}
+
+.img-width2 img{
+    width: 556px;
+    height: 438px;
+
+    
+}
 .link-button{
     text-decoration: none;
 
@@ -88,6 +111,7 @@ h1{
 
 }
 
+/*-------------------------------- main------------------- */
 
 main{
     display:flex;
@@ -189,6 +213,19 @@ footer p{
 
 
    @media only screen and (max-width:688px){
+
+
+    .left a:not(:first-child) {display: none;}
+    .left .bar {
+      color: #ffffff;
+      float: right;
+      display: block;
+      font-size: 24px;
+
+    }
+  
+  
+  
     .container, .header-section{
         width:100%;
       }
@@ -226,6 +263,14 @@ footer p{
 
 
    @media only screen and (min-width:688px) and (max-width:992px){
+    .left a:not(:first-child) {display: none;}
+    .left .bar {
+      color: #ffffff;
+      float: right;
+      display: block;
+      font-size: 24px;
+
+    }
     .container, .header-section{
         width:100%;
       }
